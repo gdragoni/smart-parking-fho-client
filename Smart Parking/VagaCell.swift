@@ -6,4 +6,8 @@
 //  Copyright © 2019 Dragoni. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class VagaCell: UICollectionViewCell {
+    @IBOutlet var label: UILabel!
+}
