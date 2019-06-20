@@ -73,7 +73,7 @@ class AwaitVagaViewController: UIViewController {
     }
     
     func terminateParking(msg: String) {
-        let hud = MBProgressHUD.showAdded(to: navigationController!.view, animated: true)
+        let hud = MBProgressHUD.showAdded(to: view, animated: true)
         hud.label.text = msg
         hud.mode = .text
         

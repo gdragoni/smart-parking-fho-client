@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 
     func reloadVagas() {
         Webservice.getVagas(disponibilidade: .disponivel, onSucces: {
-            self.vagas = $0
+            self.vagas = $0.sorted(by: { $0.pos < $1.pos })
             self.collectionView.reloadData()
         }, onError: {
             print($0)
