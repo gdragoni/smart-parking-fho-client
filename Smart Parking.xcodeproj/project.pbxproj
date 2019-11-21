@@ -112,7 +112,6 @@
 				166269E1228B962B001EDD1F /* Frameworks */,
 				166269E2228B962B001EDD1F /* Resources */,
 				88EE0DDCAD5F0E187411F5C9 /* [CP] Embed Pods Frameworks */,
-				FB5EDA5418F358ECE03A46B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,41 +197,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Smart Parking/Pods-Smart Parking-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Smart Parking/Pods-Smart Parking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Smart Parking/Pods-Smart Parking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Parking/Pods-Smart Parking-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FB5EDA5418F358ECE03A46B0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Parking/Pods-Smart Parking-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smart Parking/Pods-Smart Parking-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
